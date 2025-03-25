@@ -5,7 +5,11 @@ const controller = require('../controllers/ControllerProduct');
 var multer = require('multer');
 const path = require('path');
 
+<<<<<<< HEAD
 const ControllerJWT = require('../jwt/ControllerJWT');
+=======
+const ControllerJWT = require('../middleware/jwt/ControllerJWT');
+>>>>>>> 7212757 (mix update)
 
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {

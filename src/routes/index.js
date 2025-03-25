@@ -3,6 +3,10 @@ const UserRoute = require('./RoutesUser');
 const ProductRoute = require('./ProductsRoutes');
 const CartRoute = require('./RoutesCart');
 const PaymentsRoutes = require('./RoutesPayments');
+<<<<<<< HEAD
+=======
+const blogRoutes = require('./RoutesBlog');
+>>>>>>> 7212757 (mix update)
 
 function route(app) {
     // products
@@ -41,6 +45,19 @@ function route(app) {
     app.get('/api/getallorder', UserRoute);
     app.get('/api/getalluser', UserRoute);
     app.delete('/api/deleteuser', UserRoute);
+<<<<<<< HEAD
+=======
+
+    // Blog routes
+    app.use('/api/blogs', blogRoutes);
+    // app.get('/api/blogs', blogRoutes);
+    // app.get('/api/blogs/:id', blogRoutes);
+    // app.post('/api/blogs', blogRoutes);
+    // app.put('/api/blogs/:id', blogRoutes);
+    // app.delete('/api/blogs/:id', blogRoutes);
+    // app.post('/api/blogs/:id/comments', blogRoutes);
+    // app.post('/api/blogs/:id/like', blogRoutes);
+>>>>>>> 7212757 (mix update)
 }
 
 module.exports = route;

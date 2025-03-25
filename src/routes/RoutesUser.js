@@ -2,7 +2,11 @@ const express = require('express');
 const router = express.Router();
 
 const ControllerUser = require('../controllers/ControllerUsers');
+<<<<<<< HEAD
 const ControllerJWT = require('../jwt/ControllerJWT');
+=======
+const ControllerJWT = require('../middleware/jwt/ControllerJWT');
+>>>>>>> 7212757 (mix update)
 
 router.post('/api/register', ControllerUser.Register);
 router.post('/api/login', ControllerUser.Login);
