@@ -29,19 +29,6 @@ CLOUDINARY_API_KEY=<your-cloudinary-api-key>
 CLOUDINARY_API_SECRET=<your-cloudinary-api-secret>
 ```
 
-## Directory Structure
-
-server/
-├── src/
-│ ├── config/ # Database and service configurations
-│ ├── controllers/ # Route handlers
-│ ├── middleware/ # Middleware (auth, upload, etc.)
-│ ├── models/ # Mongoose models
-│ ├── routes/ # Route definitions
-│ └── index.js # Entry point
-├── .env # Environment variables
-└── package.json
-
 ## API Endpoints
 
 ### Authentication
